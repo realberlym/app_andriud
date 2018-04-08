@@ -15,12 +15,11 @@ public class TechmailApp extends AppCompatActivity {
 
         Button button = (Button) findViewById(R.id.button);
 
-        /*button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getBaseContext(), Portal_HelpDesk.class));
-
             }
-        });*/
+        });
     }
 }
